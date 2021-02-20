@@ -47,5 +47,8 @@ namespace Primer_Proyecto.Controllers
             }
             return "Estoy muy ocupado, no te puedo atender este momento";
         }
+        [HttpPost]
+        [Route ("Con modelo")]
+        public string Emocion3([FromBody] Luck luck)
     }
 }
